@@ -1,0 +1,122 @@
+body {
+            min-width: 400px;
+            min-height:200px;
+        }
+        .notice-data {
+            padding: 10px 3px;
+        }
+        .notice-data p {
+            padding: 5px 10px 2px 5px;
+            margin: 0;
+        }
+        .notice-data:hover {
+            background-color: #cfcfcf;
+            cursor: pointer;
+        }
+        .link-col {
+            padding: 8px;
+        }
+        .jumbotron{
+            background-color: #271b3b;
+            padding: 5px;
+        }
+        .image {
+            height: 80px;
+        }
+        .title {
+            color : #a493d1;
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+        .preloader {
+            padding: 25px;
+            width:130px;
+        }
+        .new-notice,.link {
+            color: #2d2251;
+            text-decoration: none;
+        }
+        .link:hover {
+            color: #271b3b;
+            text-decoration: none;
+        }
+        .odd {
+            background-color: #f6f6f6;
+        }
+        .line {
+          width:25px;
+          height: 3px;
+          margin: 4px 0;
+          background-color:#a493d1;
+          border-radius: 20px;
+        }
+        .button:hover > div {
+            background-color: #fff;
+        }
+        .button:hover {
+            cursor: pointer;
+        }
+        .button {
+            position: fixed;
+            padding: 10px;
+            z-index: 101;
+        }
+
+        .sidebar {
+            /*display: none;*/
+            position: fixed;
+            top: 0px;
+            width: 180px;
+            left: -180px;
+            min-height: 100%;
+            background-color: #271b3b;
+            z-index: 10;
+            -webkit-transition: left 0.2s;
+            transition: left 0.2s;
+        }
+        .sidebar-layer {
+            display: inline-block;
+            display: none;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            min-height: 100%;
+            background-color: #000;
+            z-index: 9;
+            opacity: 0.5;
+        }
+        .sidebar-icon img  {
+            width: 70px;
+            margin: 45px 0px 10px 0;
+            display: none;
+        }
+        .sidebar-name p {
+            color: #A493D1;
+            display: none;
+            font-size: 13px;
+        }
+        .sidebar-options {
+            margin-top: 20px;
+        }
+
+        .list-group-item {
+            background-color: transparent;
+            border: none;
+            color: #A493D1;
+            cursor: pointer;
+        }
+        .list-group-item.active {
+            background-color: #403469;
+            border-radius: 0;
+        }
+        .list-group-item:hover, .list-group-item.active:hover {
+            background-color: #191232;
+        }
+        .download {
+            padding: 5px;
+            display: block;
+        }
+        .download i {
+            font-size: 18px;
+            color: #2d2251;
+        }
